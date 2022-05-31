@@ -1,6 +1,6 @@
 {
   "name": "@spezifisch/event-source-polyfill",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "description": "Fork of yaffle eventsource polyfill",
   "main": "src/eventsource.js",
   "scripts": {
