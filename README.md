@@ -1,5 +1,7 @@
-EventSource polyfill - https://html.spec.whatwg.org/multipage/server-sent-events.html#server-sent-events
-========================================================
+EventSource polyfill
+====================
+
+https://html.spec.whatwg.org/multipage/server-sent-events.html#server-sent-events
 
 Installing:
 -----------
@@ -7,11 +9,11 @@ Installing:
 You can get the code from npm or bower:
 
 ```
-npm install event-source-polyfill
+npm install @spezifisch/event-source-polyfill
 ```
 
 ```
-bower install event-source-polyfill
+bower install @spezifisch/event-source-polyfill
 ```
 
 Just include `src/eventsource.js` or `src/eventsource.min.js` in your page to use the polyfill.
@@ -23,7 +25,7 @@ Ionic2/Angular2 Installation:
 Unless a typescript definition file is created for this polyfill, this is how you would use it in an Ionic2 project.  It should (in theory) be very similar in an Angular2 project.
 
 ```
-npm install event-source-polyfill
+npm install @spezifisch/event-source-polyfill
 ```
 
 Add to (or create) src/app/polyfills.ts (path is relative to where polyfills.ts is) :
@@ -41,7 +43,7 @@ Usage with webpack/browserify:
 ------------------------------
 
 ```javascript
-import { NativeEventSource, EventSourcePolyfill } from 'event-source-polyfill';
+import { NativeEventSource, EventSourcePolyfill } from '@spezifisch/event-source-polyfill';
 
 const EventSource = NativeEventSource || EventSourcePolyfill;
 // OR: may also need to set as global property
