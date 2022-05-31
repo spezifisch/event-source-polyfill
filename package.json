@@ -1,14 +1,14 @@
 {
-  "name": "event-source-polyfill",
-  "version": "1.0.25",
-  "description": "A polyfill for http://www.w3.org/TR/eventsource/ ",
+  "name": "@spezifisch/event-source-polyfill",
+  "version": "1.0.30",
+  "description": "Fork of yaffle eventsource polyfill",
   "main": "src/eventsource.js",
   "scripts": {
     "build": "grunt"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Yaffle/EventSource.git"
+    "url": "git://github.com/spezifisch/event-source-polyfill.git"
   },
   "keywords": [
     "sse",
@@ -23,9 +23,9 @@
   "author": "Yaffle (https://github.com/Yaffle)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Yaffle/EventSource/issues"
+    "url": "https://github.com/spezifisch/event-source-polyfill/issues"
   },
-  "homepage": "https://github.com/Yaffle/EventSource",
+  "homepage": "https://github.com/spezifisch/event-source-polyfill",
   "devDependencies": {
     "grunt": "^1.4.1",
     "grunt-cli": "^1.4.3",
